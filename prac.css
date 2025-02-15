@@ -1,0 +1,28 @@
+input[type=text]{
+    background-color:rgb(103, 220, 20);
+}
+ul>li{
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: coral;
+}
+h1+p{
+    color:rgb(121, 99, 216);
+    font-size: 20px;
+}
+li:hover{
+    color:black;
+}
+li:nth-child(2){
+    color:yellow;
+}
+li::before{
+    content:"🌿";
+}
+li::after{
+    content: " 🤩"
+}
+p::first-letter{
+    font-size:200%;
+    color:yellowgreen;
+}
